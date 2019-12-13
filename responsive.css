@@ -1,0 +1,108 @@
+@media screen and (min-width: 1030px) {
+    .profile-intro {
+        padding-left: 200px;
+    }
+
+    .skill-pic {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    body {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .top-portfolio {
+        font-size: 100px;
+    }
+
+    .skills {
+        flex-direction: column-reverse;
+    }
+
+    .works-item {
+        width: 50%;
+    }
+
+    .profiles {
+        flex-direction: column;
+    }
+
+    .profile-pic {
+        width: 60%;
+
+    }
+
+
+    .skill-pic {
+        width: 60%;
+    }
+
+    .pics {
+        margin: 0 auto;
+    }
+
+    .profile-table {
+        margin: 0 auto;
+    }
+
+    .profile-text {
+        margin: 0 auto;
+    }
+
+    .profile-intro {
+        padding-top: 50px;
+    }
+
+    .skill-set {
+        margin: : 0 auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+
+
+
+    .works-item {
+        width: 100%;
+    }
+
+
+    .top-portfolio {
+        font-size: 60px;
+    }
+
+    .top-name {
+        font-size: 40px;
+    }
+
+    .profile-table th {
+        font-size: 20px;
+    }
+
+
+
+
+    .skill-set {
+        width: 100%;
+    }
+
+    .skill-title-small {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .skill-set th,
+    .skill-set td {
+        display: block;
+        width: 100%;
+    }
+
+    header ul {
+        display: none;
+    }
+
+}
