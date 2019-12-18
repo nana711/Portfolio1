@@ -1,0 +1,204 @@
+body {
+    font-family: 游ゴシック Medium, Yu Gothic Medium, 游ゴシック体, YuGothic, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Meiryo UI, メイリオ, Meiryo, sans-serif;
+    color: #333333;
+}
+
+.hidden {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 10vw;
+}
+
+.title {
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-family: Cera Pro;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+/*動き*/
+
+/*header*/
+
+header ul {
+    display: flex;
+    width 50%;
+    justify-content: flex-end;
+
+}
+
+header li {
+    padding-left: 60px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.header-select {
+    color: #b3f5f5;
+}
+
+.header-select:hover {
+    color: #f5b2b2;
+}
+
+
+
+/*top*/
+.top {
+    background-color: #f5b2b2;
+    padding: 200px 0;
+}
+
+.top-portfolio {
+    text-align: center;
+    color: #b3f5f5;
+    font-size: 120px;
+    padding-bottom: 250px;
+    letter-spacing: 1.5px;
+    font-family: Cera Pro;
+}
+
+.top-name {
+    text-align: center;
+    color: #b3f5f5;
+    font-size: 50px;
+    font-family: Cera Pro;
+}
+
+/*profile*/
+.profile {
+    padding: 120px 0;
+}
+
+
+.profile-pic {
+    width: auto;
+    height: auto;
+
+}
+
+.profile-pic img {
+    width: 100%;
+}
+
+.profiles {
+    display: flex;
+
+}
+
+
+
+.profile-text {
+    padding-top: 20px;
+    line-height: 2.2;
+    font-size: 16px;
+    width: 60%;
+}
+
+.profile-table {
+    text-align: left;
+    line-height: 2;
+}
+
+.profile-table th {
+    padding-right: 20px;
+    font-size: 26px;
+    font-family: Cera Pro;
+
+}
+
+.profile-table td {
+    font-size: 2opx;
+}
+
+
+
+/*skill*/
+
+.skill {
+    padding: 100px 0;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.skill-pic img {
+    padding-top: 100px;
+
+}
+
+
+
+
+
+td {
+    line-height: 2;
+}
+
+.skill-title-small {
+    line-height: 2;
+    font-size: 25px;
+    width: 300px;
+    font-family: Cera Pro;
+    text-align: left;
+    padding-bottom: 50px;
+
+}
+
+
+.skill-title-small h3:before {
+    font-family: FontAwesome;
+    content: '\f00c';
+    padding-right: 10px;
+}
+
+.skill-set {
+    padding: 0 0 70px 0;
+}
+
+
+/*works*/
+.works {
+    padding-bottom: 80px;
+}
+
+.works-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+
+
+.works-item {
+    width: 33%;
+}
+
+/*footer*/
+footer {
+    background-color: #f5b2b2;
+    height: 50px;
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.6vw;
+}
