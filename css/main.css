@@ -3,14 +3,8 @@ body {
     color: #333333;
 }
 
-.hidden {
-    overflow: hidden;
-    margin: 0 auto;
-}
 
-.container {
-    margin: 0 10vw;
-}
+
 
 .title {
     padding-bottom: 50px;
@@ -18,39 +12,33 @@ body {
     font-family: Cera Pro;
 }
 
+.fas,
+.fa-bars {
+    display: none;
+    color: #b3f5f5;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
 
 
 * {
     box-sizing: border-box;
 }
 
+.hidden {
+    overflow: hidden;
+}
+
+.container {
+    padding: 0 100px;
+}
+
 /*動き*/
 
 /*header*/
 
-header ul {
-    display: flex;
-    width 50%;
-    justify-content: flex-end;
 
-}
-
-header li {
-    padding-left: 60px;
-}
-
-header {
-    position: fixed;
-    width: 100%;
-}
-
-.header-select {
-    color: #b3f5f5;
-}
-
-.header-select:hover {
-    color: #f5b2b2;
-}
 
 
 
@@ -127,7 +115,7 @@ header {
 /*skill*/
 
 .skill {
-    padding: 100px 0;
+    padding-top: 100px;
 }
 
 .skills {
@@ -161,10 +149,11 @@ td {
 }
 
 
-.skill-title-small h3:before {
-    font-family: FontAwesome;
+.skill-title-small h3::before {
+    font-family: "Fontawesome";
     content: '\f00c';
     padding-right: 10px;
+    font-weight: 900;
 }
 
 .skill-set {
@@ -173,8 +162,9 @@ td {
 
 
 /*works*/
-.works {
+.works-title {
     padding-bottom: 80px;
+    padding-top: 100px;
 }
 
 .works-items {
