@@ -6,12 +6,18 @@
     .skill-pic {
         padding-left: 50px;
     }
+
+
 }
 
 @media screen and (max-width: 1030px) {
     body {
         text-align: center;
         margin: 0 auto;
+    }
+
+    .container {
+        padding: 0 100px;
     }
 
     .top-portfolio {
@@ -40,6 +46,7 @@
 
     .profile-text {
         margin: 0 auto;
+        width: 100%;
     }
 
     .profile-intro {
@@ -48,6 +55,10 @@
 
     .skill-set {
         margin: : 0 auto;
+    }
+
+    .skill-sets {
+        padding-top: 40px;
     }
 }
 
