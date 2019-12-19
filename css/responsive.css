@@ -54,8 +54,6 @@
 @media screen and (max-width: 750px) {
 
 
-
-
     .works-item {
         width: 100%;
     }
@@ -74,8 +72,6 @@
     }
 
 
-
-
     .skill-set {
         width: 100%;
     }
@@ -91,9 +87,6 @@
         width: 100%;
     }
 
-    header ul {
-        display: none;
-    }
 
     .top-portfolio {
         font-size: 40px;
@@ -102,4 +95,7 @@
     .top-name {
         font-size: 25px;
     }
+
+
+
 }
