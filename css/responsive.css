@@ -1,194 +1,112 @@
-body {
-    font-family: 游ゴシック Medium, Yu Gothic Medium, 游ゴシック体, YuGothic, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Meiryo UI, メイリオ, Meiryo, sans-serif;
-    color: #333333;
-}
+@media screen and (min-width: 1030px) {
+    .profile-intro {
+        padding-left: 200px;
+    }
 
-
-
-
-.title {
-    padding-bottom: 50px;
-    font-size: 50px;
-    font-family: Cera Pro;
-}
-
-.fas,
-.fa-bars {
-    display: none;
-    color: #b3f5f5;
-    position: absolute;
-    top: 10px;
-    right: 20px;
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
-.hidden {
-    overflow: hidden;
-}
-
-.container {
-    padding: 0 100px;
-}
-
-/*動き*/
-
-/*header*/
-
-
-
-
-
-/*top*/
-.top {
-    background-color: #f5b2b2;
-    padding: 200px 0;
-}
-
-.top-portfolio {
-    text-align: center;
-    color: #b3f5f5;
-    font-size: 120px;
-    padding-bottom: 250px;
-    letter-spacing: 1.5px;
-    font-family: Cera Pro;
-}
-
-.top-name {
-    text-align: center;
-    color: #b3f5f5;
-    font-size: 50px;
-    font-family: Cera Pro;
-}
-
-/*profile*/
-.profile {
-    padding: 120px 0;
-}
-
-
-.profile-pic {
-    width: auto;
-    height: auto;
-
-}
-
-.profile-pic img {
-    width: 100%;
-}
-
-.profiles {
-    display: flex;
-
-}
-
-
-
-.profile-text {
-    padding-top: 20px;
-    line-height: 2.2;
-    font-size: 16px;
-    width: 60%;
-}
-
-.profile-table {
-    text-align: left;
-    line-height: 2;
-}
-
-.profile-table th {
-    padding-right: 20px;
-    font-size: 26px;
-    font-family: Cera Pro;
-
-}
-
-.profile-table td {
-    font-size: 2opx;
-}
-
-
-
-/*skill*/
-
-.skill {
-    padding-top: 100px;
-}
-
-.skills {
-    display: flex;
-    justify-content: space-between;
+    .skill-pic {
+        padding-left: 50px;
+    }
 
 
 }
 
-.skill-pic img {
-    padding-top: 100px;
+@media screen and (max-width: 1030px) {
+    body {
+        text-align: center;
+        margin: 0 auto;
+    }
 
+    .container {
+        padding: 0 100px;
+    }
+
+    .top-portfolio {
+        font-size: 100px;
+    }
+
+    .skills {
+        flex-direction: column-reverse;
+    }
+
+    .works-item {
+        width: 50%;
+    }
+
+    .profiles {
+        flex-direction: column;
+    }
+
+    . .pics {
+        margin: 0 auto;
+    }
+
+    .profile-table {
+        margin: 0 auto;
+    }
+
+    .profile-text {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .profile-intro {
+        padding-top: 50px;
+    }
+
+    .skill-set {
+        margin: : 0 auto;
+    }
+
+    .skill-sets {
+        padding-top: 40px;
+    }
 }
 
+@media screen and (max-width: 750px) {
+
+
+    .works-item {
+        width: 100%;
+    }
+
+
+    .top-portfolio {
+        font-size: 60px;
+    }
+
+    .top-name {
+        font-size: 40px;
+    }
+
+    .profile-table th {
+        font-size: 20px;
+    }
+
+
+    .skill-set {
+        width: 100%;
+    }
+
+    .skill-title-small {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .skill-set th,
+    .skill-set td {
+        display: block;
+        width: 100%;
+    }
+
+
+    .top-portfolio {
+        font-size: 40px;
+    }
+
+    .top-name {
+        font-size: 25px;
+    }
 
 
 
-
-td {
-    line-height: 2;
-}
-
-.skill-title-small {
-    line-height: 2;
-    font-size: 25px;
-    width: 300px;
-    font-family: Cera Pro;
-    text-align: left;
-    padding-bottom: 50px;
-
-}
-
-
-.skill-title-small h3::before {
-    font-family: "Fontawesome";
-    content: '\f00c';
-    padding-right: 10px;
-    font-weight: 900;
-}
-
-.skill-set {
-    padding: 0 0 70px 0;
-}
-
-
-/*works*/
-.works-title {
-    padding-bottom: 80px;
-    padding-top: 100px;
-}
-
-.works-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 80px;
-}
-
-
-
-.works-item {
-    width: 33%;
-}
-
-/*footer*/
-footer {
-    background-color: #f5b2b2;
-    height: 50px;
-}
-
-.footer-text {
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 0.6vw;
 }
