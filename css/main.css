@@ -30,6 +30,10 @@ body {
     overflow: hidden;
 }
 
+.container {
+    padding: 0 100px;
+}
+
 /*動き*/
 
 /*header*/
